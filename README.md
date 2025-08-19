@@ -20,7 +20,9 @@ Currently building tech to make filmmakers’ lives easier, which is arguably th
 **Why it’s different:**  
 - 🗂️ Scene-by-scene analysis from screenplay headings (INT./EXT.)  
 - 🗣️ Differentiates dialogue from action for accurate pacing  
-- 🎭 Beat-aware timing: adds pauses for `(beat)` cues  
+- 🎭 Beat-aware timing: adds pauses for `(beat)` cues
+- 🎞️ Detects montage sequences and transition cues  
+- 📝 Tags scenes with notes like `montage + dialogue`, missing time of day, and detected transitions  
 - 📤 CSV export for production use  
 - ⚙️ Built with **Python** + [`pdfplumber`](https://pypi.org/project/pdfplumber/)  
 - 🪪 MIT licensed, open to contributions
