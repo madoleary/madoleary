@@ -13,26 +13,26 @@ Currently building tech to make filmmakers’ lives easier, which is arguably th
   <img src="https://img.shields.io/badge/Open%20Source-MIT-green" alt="MIT License Badge">
 </p>
 
-🎬 **[Drameter](https://github.com/madoleary/drameter)** — Smart screenplay timing tool for filmmakers. *Not marketers.*
+🎬 **[Drameter](https://github.com/madoleary/drameter)**: Define the metadata of film language.
 
-> A practical bridge between creativity and production logistics, drawing on both my tech skills and filmmaking experience.
+> Drameter analyzes the underlying structure, rhythm, and cinematic language of a screenplay, quantifying tone, pacing, and visual storytelling at the scene level.
 
 **Why it’s different:**  
 - 🗂️ Scene-by-scene analysis from screenplay headings (INT./EXT.)  
 - 🗣️ Differentiates dialogue from action for accurate pacing  
-- 🎭 Beat-aware timing: adds pauses for `(beat)` cues
-- 🎞️ Detects montage sequences and transition cues  
-- 📝 Tags scenes with notes like `montage + dialogue`, missing time of day, and detected transitions  
-- 📤 CSV export for production use  
+- 🎭 Beat-aware timing: includes pauses for `(beat)` cues  
+- 🎞️ Visual pacing detection: montage, flashback, intercuts, fast cuts, and more  
+- 📝 Flags no-dialogue and low-dialogue scenes, transitions, and structural cues  
+- 📤 CSV export for production, editing, and planning  
 - ⚙️ Built with **Python** + [`pdfplumber`](https://pypi.org/project/pdfplumber/)  
 - 🪪 MIT licensed, open to contributions
 
 **Who it helps:**  
-- Writers refining act structure  
-- Directors planning shoots  
-- Assistant Directors coordinating production  
-- Editors spotting pacing gaps  
-- Producers estimating runtime beyond page count  
+- Writers refining structure and rhythm  
+- Directors shaping tone and timing  
+- Assistant Directors tackling production complexities 
+- Editors anticipating pacing and style  
+- Producers estimating real runtime beyond page count
 
 ---
 
