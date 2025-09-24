@@ -91,5 +91,5 @@ Empowering investigative journalism with secure, scalable collaboration platform
 ### *Flirtologist* — High-Budget Short Film Recognized at International Festivals (Writer/Director/Producer)  
 - **Challenge:** Create an ambitious short film with strong creative vision while managing the complex logistics of a multi-location, international production on a fixed budget and timeline.
 - **Action:** Selected cast from thousands of applicants and personally scouted filming locations to balance artistic goals with practical constraints; managed budget, schedule, and a 60+ person crew from pre-production through post; coordinated multi-site shoots and international teams; and secured financing through state film tax credits.  
-- **Result:** Delivered a festival-recognized short film awarded **Best TV Series/Pilot** – New York City International Film Festival (2025) and **Best Short of the Season** & **Special Jury Award** – Independent Shorts Awards (2025) ([IMDb profile](https://www.imdb.com/name/nm15372350/awards/?ref_=nm_awd)).
+- **Result:** Delivered a festival-recognized short film awarded **Best TV Series/Pilot** – **Best Short of the Season** & **Special Jury Award** – Independent Shorts Awards (2025), **Best Original Story of the Year** – Independent Shorts Awards ([IMDb profile](https://www.imdb.com/name/nm15372350/awards/?ref_=nm_awd)).
 
