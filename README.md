@@ -36,38 +36,53 @@ Currently building tech to make filmmakers’ lives easier, which is arguably th
 
 ---
 
-### Tech at a Glance
-![Rails](https://img.shields.io/badge/Ruby_on_Rails-CC0000?logo=rubyonrails&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=white)
-![Vue](https://img.shields.io/badge/Vue.js-35495E?logo=vuedotjs&logoColor=white)
-![Ember](https://img.shields.io/badge/Ember.js-E04E39?logo=ember&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazon-aws&logoColor=white)
-![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?logo=elasticsearch&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
-![RSpec](https://img.shields.io/badge/RSpec-CC342D?logo=ruby&logoColor=white)
-![Jest](https://img.shields.io/badge/Jest-C21325?logo=jest&logoColor=white)
+## 🔑 Skills / Tech
+
+- **Backend**: Ruby on Rails, Python (Django, Pyramid), Node.js (working knowledge)  
+- **Frontend**: React, Vue, Ember, JavaScript (extensive), TypeScript (working knowledge)  
+- **Databases**: PostgreSQL, MySQL  
+- **Infrastructure**: Docker, AWS, Elasticsearch, Ansible  
+- **Security & Auth**: OAuth, SSO, role-based access, multi-factor authentication (YubiKey)  
+- **Other**: API design & integration, workflow automation, testing (RSpec, Jest), secure collaboration platforms 
+---
+
+## 🛠️ Selected Projects
+
+### Terms of Service; Didn’t Read (ToS;DR)
+**Phoenix Platform (2017–2025) — Founding Contributor & Maintainer**  
+Making digital rights legible for the public, transforming complex terms of service into accessible knowledge.  
+
+- Took Phoenix from a hackathon prototype to production (user onboarding, curation tools, moderation workflows).  
+- Refactored Rails backend & standardized frontend for scaling.  
+- Replaced the annotation system with **customized Hypothesis** ([h](https://github.com/tosdr/h), [client](https://github.com/tosdr/client)), tightly integrated with Phoenix.  
+- Replaced outdated crawler with a federated crawler based on OTA’s engine.  
+- Led 2025 infra debugging (swap/memory tuning, Puma config, Rack::Attack cleanup, Elasticsearch load investigation).  
+
+📎 Repo: [tosdr/phoenix](https://github.com/tosdr/phoenix)
 
 ---
 
-## 🚀 Featured Work
+### Bluesquare
+**Full-Stack Engineer (2022–2023)**  
+Building financial transparency tools for health systems across Africa.  
 
-**[Terms of Service; Didn’t Read](https://tosdr.org/)** — Core maintainer & board member  
-- **Challenge:** A global volunteer community needed a faster, more accurate way to collect, analyze, and publish plain-language summaries of Terms of Service from hundreds of platforms.  
-- **Action:** Rebuilt backend architecture; integrated and customised a reliable crawler system (Node.js) with built-in federated data collection; adapted it to ToS;DR’s workflows; integrated AI-assisted clause analysis; and streamlined contributor onboarding with Docker.  
-- **Result:** Improved speed, accuracy, and consistency of ToS summaries for a worldwide audience.
+- **ORBF2 (Rails)**: Implemented APIs for users, sets, topics, activities, formulas, payments, and decision tables.  
+- **Hesabu-Manager (React)**: Migrated to React Query, refactored components, and built UI for managing formulas, sets, and users.  
+- **blsq-report-components (React + Tailwind)**: Built modular reporting components, org unit filters, contract/invoice tree views, and mutations for dataset sync.  
 
-**Bluesquare** — Full-stack engineer  
-- **Challenge:** Public-health ministries across Africa required tailored digital tools to meet their own national data-reporting standards and workflows.  
-- **Action:** Customised and enhanced health reporting platforms using React, Rails, and Django to align with each country’s specific requirements, from data fields to workflow logic.  
-- **Result:** Delivered compliant, user-friendly platforms that improved reporting accuracy and supported national health program management.
+📎 Repo: [BLSQ/orbf2](https://github.com/BLSQ/orbf2)
 
-**International Consortium of Investigative Journalists (ICIJ)** — Full-stack engineer  
-- **Challenge:** Journalists collaborating on sensitive, cross-border investigations needed a secure, private platform for communication and document sharing.  
-- **Action:** Designed and enforced strict role-based access controls with two-factor authentication, and built a forum-style platform for secure discussion and coordination (Vue, Rails, Django).  
-- **Result:** Enabled 200+ reporters across the globe to collaborate safely and efficiently on major investigative projects, while protecting sources and sensitive materials.
+---
+
+### ICIJ (International Consortium of Investigative Journalists)
+**Full-Stack Engineer (2018–2022)**  
+Empowering investigative journalism with secure, scalable collaboration platforms.  
+
+- **Xemx (Rails/Vue)**: Extended custom SSO with WebAuthn (YubiKey MFA), PGP integration, LDAP/Posix management.  
+- **Customized Discourse (private)**: Partitioned instances by investigation, integrated with Xemx SSO, linked to Datashare documents.  
+- Managed infra with Ansible playbooks (production/staging deployments, env configs).  
+
+📎 Private repos (Xemx, Discourse) due to newsroom sensitivity.
 
 ---
 
