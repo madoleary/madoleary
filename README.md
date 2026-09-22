@@ -1,95 +1,73 @@
-# Madeline O’Leary
+# Madeline O'Leary
 
-Random woman. Full-stack engineer with a filmmaking habit. Or filmmaker with a coding habit. Depends on the day.  
-Currently building tech to make filmmakers’ lives easier, which is arguably the hardest possible thing to do!!!!!
+Senior product engineer with 8+ years of experience building production web applications, primarily in Ruby on Rails.
 
----
+I work best on small teams where I can stay close to the code, help shape the product, and own consequential technical decisions from architecture through release. My experience includes automated purchasing and payments, identity and access systems, public-interest platforms, third-party integrations, and production operations.
 
-## ❤️ Passion Project — Drameter
+## Current focus
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" alt="Python Badge">
-  <img src="https://img.shields.io/badge/pdfplumber-parse%20PDFs-blue" alt="pdfplumber Badge">
-  <img src="https://img.shields.io/badge/Open%20Source-MIT-green" alt="MIT License Badge">
-</p>
+- Backend architecture and product engineering with Ruby on Rails
+- Reliable background processing and third-party integrations
+- Payment, purchasing, identity, and authorization systems
+- Practical uses of AI-assisted engineering with careful human review
 
-🎬 **[Drameter](https://github.com/madoleary/drameter)**: Define the metadata of film language.
+## Selected work
 
-> Drameter analyzes the underlying structure, rhythm, and cinematic language of a screenplay, quantifying tone, pacing, and visual storytelling at the scene level.
+### SeatSnags
 
-**Why it’s different:**  
-- 🗂️ Scene-by-scene analysis from screenplay headings (INT./EXT.)  
-- 🗣️ Differentiates dialogue from action for accurate pacing  
-- 🎭 Beat-aware timing: includes pauses for `(beat)` cues  
-- 🎞️ Visual pacing detection: montage, flashback, intercuts, fast cuts, and more  
-- 📝 Flags no-dialogue and low-dialogue scenes, transitions, and structural cues  
-- 📤 CSV export for production, editing, and planning  
-- ⚙️ Built with **Python** + [`pdfplumber`](https://pypi.org/project/pdfplumber/)  
-- 🪪 MIT licensed, open to contributions
+**Founding Engineer (Contract) | December 2025 - August 2026**
 
-**Who it helps:**  
-- Writers refining structure and rhythm  
-- Directors shaping tone and timing  
-- Assistant Directors tackling production complexities 
-- Editors anticipating pacing and style  
-- Producers estimating real runtime beyond page count
+Designed and built the complete Rails backend for an automated ticket-purchasing platform released to trusted users through TestFlight.
 
----
+- Architected purchasing across Ticket Evolution and Stripe, including explicit lifecycle states, concurrency controls, idempotency safeguards, signed webhooks, reconciliation, and failure recovery.
+- Enforced customer price, quantity, section, and delivery constraints at purchase time.
+- Defined API contracts with the frontend engineer and led integration testing, controlled real-money validation, and production hardening.
 
-## 🔑 Skills / Tech
+### Terms of Service; Didn't Read (ToS;DR)
 
-- **Backend**: Ruby on Rails, Python (Django, Pyramid), Node.js (working knowledge)  
-- **Frontend**: React, Vue, Ember, JavaScript (extensive), TypeScript (working knowledge)  
-- **Databases**: PostgreSQL, MySQL  
-- **Infrastructure**: Docker, AWS, Elasticsearch, Ansible  
-- **Security & Auth**: OAuth, SSO, role-based access, multi-factor authentication (YubiKey)  
-- **Other**: API design & integration, workflow automation, testing (RSpec, Jest), secure collaboration platforms 
----
+**Founding Engineer and Maintainer, Phoenix Platform | 2017 - 2025**  
+Varying contract and open-source involvement
 
-## 🛠️ Selected Projects
+Built and maintained Phoenix, the contributor platform that powers ToS;DR's community review of online services' terms and privacy practices.
 
-### Terms of Service; Didn’t Read (ToS;DR)
-**Phoenix Platform (2017–2025) — Founding Contributor & Maintainer**  
-Making digital rights legible for the public, transforming complex terms of service into accessible knowledge.  
+- Built the Phoenix MVP and helped design and lead implementation of its annotation system.
+- Integrated a substantially customized Hypothesis instance, including authentication, data migration, and coordinated annotation changes across both applications.
+- Helped develop document collection and historical change tracking for thousands of terms-of-service documents across hundreds of services.
+- Led contributor validation and communication for a major annotation-system migration.
 
-- Took Phoenix from a hackathon prototype to production (user onboarding, curation tools, moderation workflows).  
-- Refactored Rails backend & standardized frontend for scaling.  
-- Replaced the annotation system with **customized Hypothesis** ([h](https://github.com/tosdr/h), [client](https://github.com/tosdr/client)), tightly integrated with Phoenix.  
-- Replaced outdated crawler with a federated crawler based on OTA’s engine.  
-- Led 2025 infra debugging (swap/memory tuning, Puma config, Rack::Attack cleanup, Elasticsearch load investigation).  
+[Phoenix repository](https://github.com/tosdr/phoenix)
 
-📎 Repo: [tosdr/phoenix](https://github.com/tosdr/phoenix)
+### International Consortium of Investigative Journalists
 
----
+**Full-Stack Engineer (Contract) | June 2018 - January 2022**
+
+Built and secured systems supporting confidential collaboration among hundreds of investigative journalists worldwide.
+
+- Took architectural ownership of Xemx, ICIJ's identity gateway, including LDAP-backed onboarding, single sign-on, PGP setup, and investigation-specific authorization.
+- Built YubiKey authentication by extending Devise and integrating WebAuthn.
+- Developed a substantial Discourse plugin that enforced investigation boundaries, including direct-link access, and backed the restrictions with automated tests.
+
+The relevant repositories are private because of newsroom security requirements.
 
 ### Bluesquare
-**Full-Stack Engineer (2022–2023)**  
-Building financial transparency tools for health systems across Africa.  
 
-- **ORBF2 (Rails)**: Implemented APIs for users, sets, topics, activities, formulas, payments, and decision tables.  
-- **Hesabu-Manager (React)**: Migrated to React Query, refactored components, and built UI for managing formulas, sets, and users.  
-- **blsq-report-components (React + Tailwind)**: Built modular reporting components, org unit filters, contract/invoice tree views, and mutations for dataset sync.  
+**Full-Stack Engineer (Contract) | January 2022 - February 2023**
 
-📎 Repo: [BLSQ/orbf2](https://github.com/BLSQ/orbf2)
+- Built Rails APIs and React interfaces for software used to calculate, report, and administer performance-based health financing.
+- Modernized frontend data management with React Query.
+- Built reusable React and Tailwind components for invoicing and reporting applications used by on-the-ground health-program administrators across sub-Saharan Africa.
 
----
+[ORBF2 repository](https://github.com/BLSQ/orbf2)
 
-### ICIJ (International Consortium of Investigative Journalists)
-**Full-Stack Engineer (2018–2022)**  
-Empowering investigative journalism with secure, scalable collaboration platforms.  
+## Technical skills
 
-- **Xemx (Rails/Vue)**: Extended custom SSO with WebAuthn (YubiKey MFA), PGP integration, LDAP/Posix management.  
-- **Customized Discourse (private)**: Partitioned instances by investigation, integrated with Xemx SSO, linked to Datashare documents.  
-- Managed infra with Ansible playbooks (production/staging deployments, env configs).  
+- **Backend:** Ruby, Ruby on Rails, Python, Django, Pyramid, REST API design
+- **Frontend:** JavaScript, React, Vue, Ember, React Query, Tailwind CSS; working knowledge of TypeScript
+- **Data and infrastructure:** PostgreSQL, Redis, Elasticsearch, Docker, AWS, Sidekiq, Ansible
+- **Testing and security:** RSpec, Jest, WebAuthn, SSO, LDAP, PGP, application security
 
-📎 Private repos (Xemx, Discourse) due to newsroom sensitivity.
+## Outside engineering
 
----
+I also wrote, directed, and produced the award-winning short film *Flirtologist*. Filmmaking is part of my background, but engineering is my professional focus.
 
-## 🎬 Adjacent Experience  
-
-### *Flirtologist* — High-Budget Short Film Recognized at International Festivals (Writer/Director/Producer)  
-- **Challenge:** Create an ambitious short film with strong creative vision while managing the complex logistics of a multi-location, international production on a fixed budget and timeline.
-- **Action:** Selected cast from thousands of applicants and personally scouted filming locations to balance artistic goals with practical constraints; managed budget, schedule, and a 60+ person crew from pre-production through post; coordinated multi-site shoots and international teams; and secured financing through state film tax credits.  
-- **Result:** Delivered a festival-recognized short film awarded **Best Short of the Season** & **Special Jury Award** – Independent Shorts Awards (2025), **Best Original Story of the Year** – Independent Shorts Awards ([IMDb profile](https://www.imdb.com/name/nm15372350/awards/?ref_=nm_awd)).
-
+[Film awards](https://www.imdb.com/name/nm15372350/awards/?ref_=nm_awd)
