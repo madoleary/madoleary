@@ -1,6 +1,6 @@
 # Madeline O'Leary
 
-Senior product engineer with 8+ years of experience building production web applications, primarily in Ruby on Rails.
+Senior product engineer with 9+ years of experience building production web applications, primarily in Ruby on Rails.
 
 I work best on small teams where I can stay close to the code, help shape the product, and own consequential technical decisions from architecture through release. My experience includes automated purchasing and payments, identity and access systems, public-interest platforms, third-party integrations, and production operations.
 
